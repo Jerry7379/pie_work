@@ -1,0 +1,15 @@
+{
+    "alldata": 
+    {
+        "totalCount": 233,
+        "outBarCount": 4644,
+        "outBarAvgWeight": 203
+    },
+        
+    "currentWeek":
+    {
+        "totalCount": 23,
+        "outBarCount": 12,
+        "outBarAvgWeight": 42
+    }
+}

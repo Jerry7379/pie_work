@@ -1,0 +1,54 @@
+{
+    "breedSpot": [
+        {
+          "variety": "大白猪",
+          "count": 12
+        },
+        {
+          "variety": "小白猪",
+          "count": 8
+        },
+        {
+          "variety": "小猪",
+          "count": 23
+        },
+        {
+          "variety": "大1白猪",
+          "count": 12
+        },
+        {
+          "variety": "小1白猪",
+          "count": 8
+        },
+        {
+          "variety": "小1猪",
+          "count": 23
+        }
+    ],
+    "breedGlobal": [
+        {
+          "variety": "大白猪",
+          "count": 22
+        },
+        {
+          "variety": "小白猪",
+          "count": 44
+        },
+        {
+          "variety": "小猪",
+          "count": 12
+        }
+    ],
+    "genderSpot": [
+      {
+        "male": 222,
+        "female": 666
+      }
+    ],
+    "genderGlobal": [
+      {
+        "male": 244,
+        "female": 234
+      }
+    ]
+}

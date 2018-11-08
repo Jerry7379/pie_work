@@ -1,0 +1,73 @@
+{
+  "name": "@icedesign/builder-platfrom-scaffold",
+  "version": "1.0.0",
+  "description": "该模板适用于云构建类的数据展示和管理后台",
+  "keywords": [
+    "ice-scaffold"
+  ],
+  "scripts": {
+    "start": "ice dev",
+    "build": "ice build",
+    "lint": "eslint . --ext '.js,.jsx' --fix"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.com",
+    "access": "public"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.9.6",
+    "@icedesign/base": "^0.2.3",
+    "@icedesign/card": "^0.1.0",
+    "@icedesign/container": "^0.1.1",
+    "@icedesign/form-binder": "^0.1.7",
+    "@icedesign/img": "^0.1.1",
+    "@icedesign/layout": "^0.1.2",
+    "@icedesign/menu": "^0.1.1",
+    "@icedesign/skin": "^0.1.0",
+    "@types/react": "^16.4.16",
+    "axios": "^0.18.0",
+    "bizcharts": "^3.2.2",
+    "classnames": "^2.2.5",
+    "echarts": "^4.0.4",
+    "echarts-for-react": "^2.0.8",
+    "fecha": "^2.3.3",
+    "foundation-symbol": "^0.1.3",
+    "highcharts": "^6.1.1",
+    "prop-types": "^15.5.8",
+    "rc-queue-anim": "^1.6.5",
+    "react": "^16.2.0",
+    "react-amap": "^1.2.7",
+    "react-dom": "^16.5.2",
+    "react-highcharts": "^16.0.2",
+    "react-router-dom": "^4.2.2",
+    "react-trello": "^1.31.0",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "ice-scripts": "^1.6.0-next.3"
+  },
+  "buildConfig": {
+    "theme": "@icedesign/skin",
+    "entry": "src/index.js",
+    "localization": false
+  },
+  "themeConfig": {
+    "primaryColor": "#f0824c"
+  },
+  "scaffoldConfig": {
+    "name": "ice-builder-platform",
+    "title": "ICE Builder Platform",
+    "categories": [
+      "数据可视化"
+    ],
+    "screenshot": "https://img.alicdn.com/tfs/TB1PS.xJYSYBuNjSspfXXcZCpXa-2840-1596.png"
+  },
+  "title": "pie_work"
+}
